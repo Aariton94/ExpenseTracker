@@ -4,6 +4,21 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+### Spring Boot Config (hide credentials)
+src/main/resources/application.properties
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### Maven ###
+log/
+logs/
+*.log
+
 ### STS ###
 .apt_generated
 .classpath
@@ -12,12 +27,6 @@ target/
 .settings
 .springBeans
 .sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
 
 ### NetBeans ###
 /nbproject/private/
@@ -31,3 +40,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### OS Specific ###
+.DS_Store
+Thumbs.db
